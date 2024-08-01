@@ -43,6 +43,8 @@ theme:
     - navigation.sections
     - navigation.path
     - toc.follow
+    - content.code.copy
+    - content.code.select
 
 plugins:
   - search
@@ -74,6 +76,10 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+    - custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.inlinehilite
   - pymdownx.snippets
 
