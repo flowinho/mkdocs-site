@@ -16,7 +16,7 @@ tags:
 
 Test
 
-```Mermaid
+```mermaid
 graph TD
   A[Idee für Website-Design]
   B[Relativierung der Vorteile des aktuellen Designs/Tech-Stacks]
