@@ -1,8 +1,11 @@
+copyright: Copyright &copy; 2024 - Florian Schuttkowski
 site_name: My site
 site_url: https://mydomain.org/mysite
 theme:
   name: material
   language: de
+  features:
+    - navigation.footer
 
 plugins:
   - blog
@@ -10,3 +13,9 @@ plugins:
       tags_file: tags.md
   - privacy
   - social
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
