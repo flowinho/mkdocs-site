@@ -46,6 +46,7 @@ plugins:
       tags_file: tags.md
   - privacy
   - social
+  - glightbox
 
 extra:
   generator: false
@@ -56,4 +57,8 @@ extra:
 
 repo_url: Team-Ladefuchs/ladefuchs-react-native
 
-
+markdown_extensions:
+  - abbr # Tooltips
+  - admonition # Callouts (mega)
+  - attr_list # HTML Klassen, braucht zB lazy loading
+  - md_in_html # markdown und html mischen
