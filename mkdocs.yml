@@ -7,3 +7,4 @@ theme:
 plugins:
   - blog
   - tags
+  - privacy
