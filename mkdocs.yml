@@ -49,7 +49,7 @@ plugins:
   - search
   - blog
   - tags:
-      tags_file: tags.md
+      tags_file: schlagworte.md
   - privacy
   - social
   - glightbox
