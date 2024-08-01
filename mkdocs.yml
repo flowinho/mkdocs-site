@@ -37,7 +37,8 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.path
-
+    - toc.follow
+    
 plugins:
   - search
   - blog
