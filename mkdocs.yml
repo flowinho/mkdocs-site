@@ -10,7 +10,7 @@ theme:
   name: material
   language: de
   icon:
-    logo: material/brain
+    logo: material/application-braces-outline
   font:
     text: Spectral
   palette:
@@ -63,6 +63,10 @@ extra:
       link: https://github.com/flowinho
     - icon: fontawesome/brands/signal-messenger
       link: https://signal.me/#eu/YYsmjGrYPtnITzp0VY2zv6DvpI0ZO03kGV3ErqrMXQ4Xw1_UJtNI8KqaiDswvKQ
+    - icon: fontawesome/brands/slack
+      link: https://audiodump.de/slack
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:mail@florianschuttkowski.com
 
 markdown_extensions:
   - abbr # Tooltips
