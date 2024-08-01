@@ -6,6 +6,29 @@ theme:
   language: de
   font:
     text: Spectral
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Zum hellen Modus wechseln
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: Zum dunklen Modus wechseln
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: Farbvorgabe des Systems anwenden
+
   features:
     - navigation.footer
 
