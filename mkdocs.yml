@@ -6,6 +6,7 @@ theme:
 
 plugins:
   - blog
-  - tags
+  - tags:
+      tags_file: tags.md
   - privacy
   - social
