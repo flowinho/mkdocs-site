@@ -1,6 +1,11 @@
 copyright: Copyright &copy; 2024 - Florian Schuttkowski
 site_name: FlorianSchuttkowski
 site_url: https://mydomain.org/mysite
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
 theme:
   name: material
   language: de
@@ -62,3 +67,8 @@ markdown_extensions:
   - admonition # Callouts (mega)
   - attr_list # HTML Klassen, braucht zB lazy loading
   - md_in_html # markdown und html mischen
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+
