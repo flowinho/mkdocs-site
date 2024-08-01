@@ -35,6 +35,7 @@ theme:
     - navigation.footer
 
 plugins:
+  - search
   - blog
   - tags:
       tags_file: tags.md
