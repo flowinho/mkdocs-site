@@ -32,7 +32,9 @@ theme:
         name: Farbvorgabe des Systems anwenden
 
   features:
+    - navigation.tracking
     - navigation.footer
+    - navigation.tabs
 
 plugins:
   - search
