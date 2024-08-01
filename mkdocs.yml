@@ -36,6 +36,7 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.sections
+    - navigation.path
 
 plugins:
   - search
