@@ -71,4 +71,6 @@ markdown_extensions:
   - toc:
       permalink: true
   - tables
+  - pymdownx.details
+  - pymdownx.superfences
 
