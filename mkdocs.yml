@@ -38,7 +38,7 @@ theme:
     - navigation.sections
     - navigation.path
     - toc.follow
-    
+
 plugins:
   - search
   - blog
@@ -52,3 +52,6 @@ extra:
   social:
     - icon: fontawesome/brands/mastodon 
       link: https://fosstodon.org/@squidfunk
+
+
+repo_url: https://github.com/flowinho/dotfiles
