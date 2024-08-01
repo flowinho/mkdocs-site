@@ -73,9 +73,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
     - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
     - custom_fences:
         - name: mermaid
           class: mermaid
