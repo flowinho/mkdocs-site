@@ -8,6 +8,7 @@ extra_javascript:
 
 theme:
   name: material
+  custom_dir: overrides
   language: de
   icon:
     logo: material/application-braces-outline
