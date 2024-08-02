@@ -94,3 +94,16 @@ markdown_extensions:
             class: mermaid
             format: !!python/name:pymdownx.superfences.fence_code_format
 
+nav:
+  - Home:
+    - index.md
+  - Blog:
+    - blog/index.md
+  - CV:
+    - cv.md
+  - Schlagworte:
+    - schlagworte.md
+  - Impressum:
+    - impressum.md
+  - Datenschutz:
+    - datenschutz.md
