@@ -6,7 +6,9 @@ Korntaler Straße 15/1<br />
 71636 Ludwigsburg<br />
 Deutschland</p>
 
-## KontaktmöglichkeitenE-Mail-Adresse: mail [at] florian-s [dot] org
+## Kontaktmöglichkeiten
+
+E-Mail-Adresse: mail [at] florian-s [dot] org
 
 ## Journalistisch-redaktionelle Angebote
 Inhaltlich verantwortlich: Florian Schuttkowski
