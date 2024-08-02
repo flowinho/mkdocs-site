@@ -1,0 +1,9 @@
+nav:
+    - index.md
+    - blog
+    - wiki
+    - cv.md
+    - schlagworte.md
+    - impressum.md
+    - datenschutz.md
+    

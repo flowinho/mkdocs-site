@@ -44,6 +44,8 @@ theme:
         name: Farbvorgabe des Systems anwenden
 
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -54,12 +56,14 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_toc: true
   - tags:
       tags_file: schlagworte.md
   - privacy
   - social
   - glightbox
+  - awesome-pages
 
 extra:
   generator: false
@@ -105,16 +109,18 @@ markdown_extensions:
             class: mermaid
             format: !!python/name:pymdownx.superfences.fence_code_format
 
-nav:
-  - Home:
-    - index.md
-  - Blog:
-    - blog/index.md
-  - CV:
-    - cv.md
-  - Schlagworte:
-    - schlagworte.md
-  - Impressum:
-    - impressum.md
-  - Datenschutz:
-    - datenschutz.md
+# nav:
+#   - Home:
+#     - index.md
+#   - Blog:
+#     - blog/index.md
+#   - CV:
+#     - cv.md
+#   - Wiki:
+#     - wiki/index.md
+#   - Schlagworte:
+#     - schlagworte.md
+#   - Impressum:
+#     - impressum.md
+#   - Datenschutz:
+#     - datenschutz.md
