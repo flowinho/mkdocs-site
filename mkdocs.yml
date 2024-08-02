@@ -51,9 +51,7 @@ plugins:
   - blog
   - tags:
       tags_file: schlagworte.md
-  - privacy:
-      external_assets_exclude:
-        - giscus.app/*
+  - privacy
   - social
   - glightbox
 
