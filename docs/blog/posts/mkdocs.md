@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2024-08-01
 authors:
   - flowinho
@@ -30,9 +30,13 @@ graph TD
 
 Blubbern 
 
+## Bilder Test
 
+Was passiert wenn ich irgendwo im Text ein Bild hinzufüge?
 
+![Image title](https://florianschuttkowski.com/assets/images/pixar-me.jpg){ width=300px; align=left }
 
+dasdasdsadsadasdada
 
 
 
