@@ -16,10 +16,11 @@ tags:
 
 Test
 
-``` mermaid
+```mermaid
 graph TD
   A[Idee für Website-Design]
   B[Relativierung der Vorteile des aktuellen Designs/Tech-Stacks]
+  A --> B
   B --> C[Umsetzung aus Freude am Basteln]
   C --> D[Fertigstellung]
   D --> E[Freude über das Ergebnis]
